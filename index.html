@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bike Trail Tirol Beispiel</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Leaflet providers -->
+    <script src="https://unpkg.com/leaflet-providers@latest/leaflet-providers.js"></script>
+
+    <!-- eigene Stile und Hauptskript -->
+    <link rel="stylesheet" href="main.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h2><i class="fa-solid fa-person-biking"></i> Bike Trail Tirol Beispiel</h2>
+            <nav>
+                <i class="fab fa-github"></i> <a href="https://github.com/webmapping/biketirol">Github</a>
+            </nav>
+        </header>
+        <article>
+            <h1><mark>todo:Titel und Nummer eurer Etappe (z.B. Etappe 7: Scharnitz - Achensee)</mark></h1>
+            <p><mark>todo:Intro-Text eurer Etappenseite</mark></p>
+
+            <div class="summary">
+                <div class="summary-badge" title="Fahrzeit">
+                    <i class="fa-regular fa-clock"></i> <mark>todo:Fahrzeit</mark>
+                </div>
+                <div class="summary-badge" title="Länge">
+                    <i class="fa-solid fa-ruler-horizontal"></i> <mark>todo:Länge</mark> km
+                </div>
+                <div class="summary-badge" title="Höhenmeter bergauf">
+                    <i class="fa-solid fa-up-long"></i> <mark>todo:bergauf</mark> m
+                </div>
+                <div class="summary-badge" title="Höhenmeter bergab">
+                    <i class="fa-solid fa-down-long"></i> <mark>todo:bergab</mark> m
+                </div>
+                <div class="summary-badge" title="höchster Punkt">
+                    <i class="fa-solid fa-arrows-up-to-line"></i> <mark>todo:höchster Punkt</mark> m
+                </div>
+                <div class="summary-badge" title="tiefster Punkt">
+                    <i class="fa-solid fa-arrows-down-to-line"></i> <mark>todo:tiefster Punkt</mark> m
+                </div>
+                <div class="summary-badge" title="Schwierigkeitsgrad">
+                    <i class="fa-solid fa-heart-pulse"></i> <mark>todo:Schwierigkeitsgrad</mark>
+                </div>
+                <div class="summary-badge" title="Download">
+                    <i class="fa-solid fa-download"></i> <mark>todo:Link zum GPX-Track mit Linktext "Download GPX"</mark>
+                </div>
+            </div>
+
+            <div id="map"></div>
+
+            <h3>Streckenbeschreibung</h3>
+            <p><mark>todo:Streckenbeschreibung der Etappenseite</mark></p>
+
+        </article>
+        <footer>
+            <strong>Datenquellen:</strong>
+            <nav>
+                <mark>todo:Link auf die Webseite der Etappe mit dem selben Linktext wie bei der Überschrift (todo:Titel)</mark> |
+                <a href="https://www.data.gv.at/katalog/de/dataset/land-tirol_biketrailtirol">Opendata Bike Trail Tirol</a> |
+                <a href="https://www.data.gv.at/katalog/de/dataset/land-tirol_elektronischekartetirol">eGrundkarte Tirol</a>
+            </nav>
+        </footer>
+    </main>
+</body>
+
+</html>
