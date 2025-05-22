@@ -65,3 +65,8 @@ footer nav {
     border-radius: 10px;
     margin-right: 0.5em;
 }
+
+#pulldown {
+    font-size: 1.1em;
+    margin-bottom: 0.3em;
+}
