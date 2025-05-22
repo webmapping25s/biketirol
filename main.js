@@ -73,3 +73,6 @@ pulldown.onchange = function(evt) {
     //console.log(evt.target.value);
     window.location.href = `https://${evt.target.value}.github.io/biketirol`;
 }
+
+const controlElevation = L.control.elevation({}).addTo(map);
+controlElevation.load("data/etappe7.gpx");
