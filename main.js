@@ -79,7 +79,6 @@ const controlElevation = L.control.elevation({
     time: false,
     elevationDiv: "#profile",
     height: 300,
-    slope: true,
 }).addTo(map);
 controlElevation.load("data/etappe7.gpx");
 
